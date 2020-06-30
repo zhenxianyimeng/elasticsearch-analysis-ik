@@ -20,6 +20,7 @@ public class TestIK {
     public static void main(String[] args) throws IOException {
         testIkSegment();
     }
+
     public static void testIkSegment() throws IOException {
 //        String t = "木语窗帘套装4";
         String t = "得饶人处且饶人";
