@@ -108,7 +108,7 @@ public final class IKSegmenter {
 				//初始化指针
 				context.initCursor();
 				do{
-        			//遍历子分词器
+        			//遍历子分词器 ？是否需要每个自分词器都遍历
         			for(ISegmenter segmenter : segmenters){
         				segmenter.analyze(context);
         			}

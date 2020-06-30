@@ -39,7 +39,9 @@ class DictSegment implements Comparable<DictSegment>{
 	//数组大小上限
 	private static final int ARRAY_LENGTH_LIMIT = 3;
 
-	
+	/**
+	 * 数组和map共存的方式，个数小于等于三个用array，大于三个用map
+	 */
 	//Map存储结构
 	private Map<Character , DictSegment> childrenMap;
 	//数组方式存储结构
